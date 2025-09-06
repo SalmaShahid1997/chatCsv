@@ -2,6 +2,7 @@ from langchain_experimental.agents import create_csv_agent
 from dotenv import load_dotenv
 import apikey, os
 import streamlit as st
+from langchain_openai import OpenAI
 
 # Your subsequent code...
 
