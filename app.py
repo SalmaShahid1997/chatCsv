@@ -10,7 +10,7 @@ def main():
     load_dotenv()
 
     # Optionally set API key directly (not recommended for production)
-    os.environ['OPENAI_API_KEY'] = os.getenv("OPENAI_API_KEY", "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")
+    os.environ['OPENAI_API_KEY'] = os.getenv("OPENAI_API_KEY", "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")
 
     if not os.environ['OPENAI_API_KEY']:
         print("OPENAI_API_KEY is not set")
