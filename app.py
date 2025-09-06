@@ -1,9 +1,9 @@
 from langchain_experimental.agents import create_csv_agent
 from dotenv import load_dotenv
-
+import apikey
 # Your subsequent code...
 
-os.environ['OPENAI_API_KEY'] = apikey
+os.environ['OPENAI_API_KEY'] = "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"
 
 
 
