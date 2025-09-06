@@ -3,3 +3,4 @@ streamlit
 openai
 tabulate
 langchain-experimental
+langchain-openai
