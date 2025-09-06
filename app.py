@@ -31,7 +31,7 @@ def main():
             f.write(csv_file.getvalue())
 
         agent = create_csv_agent(
-            OpenAI(temperature=0), temp_path, verbose=True)
+            OpenAI(temperature=0), allow_dangerous_code=True, temp_path, verbose=True)
 
         user_question = st.text_input("Ask a question about your CSV: ")
 
