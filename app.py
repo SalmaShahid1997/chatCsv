@@ -4,13 +4,13 @@ import os
 import streamlit as st
 from langchain_openai import OpenAI
 
-
+# OPENAI_API_KEYs=
 def main():
     # Load environment variables
     load_dotenv()
 
     # Optionally set API key directly (not recommended for production)
-    os.environ['OPENAI_API_KEY'] = os.getenv("OPENAI_API_KEY", "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")
+    os.environ['OPENAI_API_KEY'] = os.getenv("OPENAI_API_KEY", "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")
 
     if not os.environ['OPENAI_API_KEY']:
         print("OPENAI_API_KEY is not set")
